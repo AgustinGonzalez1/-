@@ -1,0 +1,1919 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 98vh;
+  background-color: #29306c;
+  overflow: hidden;
+}
+body > div > img{
+  max-width: 350px;
+  border-radius: 5px;
+}
+body > div > h1{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+body > i:nth-child(2) {
+	position: absolute;
+	animation: caida1 7.616s infinite linear;
+  color: red;
+  left: 1%;
+  top: -100px;
+  animation-delay: 1.886s;
+}
+@keyframes caida1 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-252deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(297deg);
+	}
+}
+
+body > i:nth-child(3) {
+	position: absolute;
+  left: 2%;
+  top: -100px;
+	animation: caida2 8.225s infinite linear;
+  color: red;
+  animation-delay: 0.019s;
+}
+@keyframes caida2 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-13deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(177deg);
+	}
+}
+
+body > i:nth-child(4) {
+	position: absolute;
+  left: 3%;
+  top: -100px;
+	animation: caida3 4.958s infinite linear;
+  color: red;
+  animation-delay: 1.18s;
+}
+@keyframes caida3 {
+	0% {
+		top: 0%;
+		transform: rotateZ(110deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(150deg);
+	}
+}
+
+body > i:nth-child(5) {
+	position: absolute;
+  left: 4%;
+  top: -100px;
+	animation: caida4 6.747s infinite linear;
+  color: red;
+  animation-delay: 1.577s;
+}
+@keyframes caida4 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-330deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(273deg);
+	}
+}
+
+body > i:nth-child(6) {
+	position: absolute;
+  left: 5%;
+  top: -100px;
+	animation: caida5 4.463s infinite linear;
+  color: red;
+  animation-delay: 1.138s;
+}
+@keyframes caida5 {
+	0% {
+		top: 0%;
+		transform: rotateZ(35deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-39deg);
+	}
+}
+
+body > i:nth-child(7) {
+	position: absolute;
+  left: 6%;
+  top: -100px;
+	animation: caida6 6.669s infinite linear;
+  color: red;
+  animation-delay: 0.97s;
+}
+@keyframes caida6 {
+	0% {
+		top: 0%;
+		transform: rotateZ(352deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-2deg);
+	}
+}
+
+body > i:nth-child(8) {
+	position: absolute;
+  left: 7%;
+  top: -100px;
+	animation: caida7 8.284s infinite linear;
+  color: red;
+  animation-delay: 0.933s;
+}
+@keyframes caida7 {
+	0% {
+		top: 0%;
+		transform: rotateZ(352deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-2deg);
+	}
+}
+
+body > i:nth-child(9) {
+	position: absolute;
+  left: 8%;
+  top: -100px;
+	animation: caida8 4.27s infinite linear;
+  color: red;
+  animation-delay: 0.673s;
+}
+@keyframes caida8 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-313deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(298deg);
+	}
+}
+
+body > i:nth-child(10) {
+	position: absolute;
+  left: 9%;
+  top: -100px;
+	animation: caida9 4.647s infinite linear;
+  color: red;
+  animation-delay: 1.942s;
+}
+@keyframes caida9 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-103deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(211deg);
+	}
+}
+
+body > i:nth-child(11) {
+	position: absolute;
+  left: 10%;
+  top: -100px;
+	animation: caida10 4.841s infinite linear;
+  color: red;
+  animation-delay: 0.902s;
+}
+@keyframes caida10 {
+	0% {
+		top: 0%;
+		transform: rotateZ(195deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-25deg);
+	}
+}
+
+body > i:nth-child(12) {
+	position: absolute;
+  left: 11%;
+  top: -100px;
+	animation: caida11 4.561s infinite linear;
+  color: red;
+  animation-delay: 0.125s;
+}
+@keyframes caida11 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-279deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(360deg);
+	}
+}
+
+body > i:nth-child(13) {
+	position: absolute;
+  left: 12%;
+  top: -100px;
+	animation: caida12 4.852s infinite linear;
+  color: red;
+  animation-delay: 1.741s;
+}
+@keyframes caida12 {
+	0% {
+		top: 0%;
+		transform: rotateZ(221deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(358deg);
+	}
+}
+
+body > i:nth-child(14) {
+	position: absolute;
+  left: 13%;
+  top: -100px;
+	animation: caida13 5.441s infinite linear;
+  color: red;
+  animation-delay: 0.323s;
+}
+@keyframes caida13 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-244deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-188deg);
+	}
+}
+
+body > i:nth-child(15) {
+	position: absolute;
+  left: 14%;
+  top: -100px;
+	animation: caida14 7.167s infinite linear;
+  color: red;
+  animation-delay: 1.557s;
+}
+@keyframes caida14 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-203deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(77deg);
+	}
+}
+
+body > i:nth-child(16) {
+	position: absolute;
+  left: 15%;
+  top: -100px;
+	animation: caida15 6.075s infinite linear;
+  color: red;
+  animation-delay: 1.274s;
+}
+@keyframes caida15 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-74deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(206deg);
+	}
+}
+
+body > i:nth-child(17) {
+	position: absolute;
+  left: 16%;
+  top: -100px;
+	animation: caida16 7.086s infinite linear;
+  color: red;
+  animation-delay: 0.592s;
+}
+@keyframes caida16 {
+	0% {
+		top: 0%;
+		transform: rotateZ(113deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(180deg);
+	}
+}
+
+body > i:nth-child(18) {
+	position: absolute;
+  left: 17%;
+  top: -100px;
+	animation: caida17 5.428s infinite linear;
+  color: red;
+  animation-delay: 0.165s;
+}
+@keyframes caida17 {
+	0% {
+		top: 0%;
+		transform: rotateZ(212deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(39deg);
+	}
+}
+
+body > i:nth-child(19) {
+	position: absolute;
+  left: 18%;
+  top: -100px;
+	animation: caida18 5.126s infinite linear;
+  color: red;
+  animation-delay: 0.786s;
+}
+@keyframes caida18 {
+	0% {
+		top: 0%;
+		transform: rotateZ(278deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-46deg);
+	}
+}
+
+body > i:nth-child(20) {
+	position: absolute;
+  left: 19%;
+  top: -100px;
+	animation: caida19 6.956s infinite linear;
+  color: red;
+  animation-delay: 1.739s;
+}
+@keyframes caida19 {
+	0% {
+		top: 0%;
+		transform: rotateZ(76deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-345deg);
+	}
+}
+
+body > i:nth-child(21) {
+	position: absolute;
+  left: 20%;
+  top: -100px;
+	animation: caida20 5.939s infinite linear;
+  color: red;
+  animation-delay: 1.713s;
+}
+@keyframes caida20 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-334deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(169deg);
+	}
+}
+
+body > i:nth-child(22) {
+	position: absolute;
+  left: 21%;
+  top: -100px;
+	animation: caida21 7.637s infinite linear;
+  color: red;
+  animation-delay: 0.593s;
+}
+@keyframes caida21 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-147deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-357deg);
+	}
+}
+
+body > i:nth-child(23) {
+	position: absolute;
+  left: 22%;
+  top: -100px;
+	animation: caida22 4.915s infinite linear;
+  color: red;
+  animation-delay: 1.014s;
+}
+@keyframes caida22 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-149deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-319deg);
+	}
+}
+
+body > i:nth-child(24) {
+	position: absolute;
+  left: 23%;
+  top: -100px;
+	animation: caida23 4.35s infinite linear;
+  color: red;
+  animation-delay: 1.978s;
+}
+@keyframes caida23 {
+	0% {
+		top: 0%;
+		transform: rotateZ(55deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-188deg);
+	}
+}
+
+body > i:nth-child(25) {
+	position: absolute;
+  left: 24%;
+  top: -100px;
+	animation: caida24 6.682s infinite linear;
+  color: red;
+  animation-delay: 1.222s;
+}
+@keyframes caida24 {
+	0% {
+		top: 0%;
+		transform: rotateZ(241deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-1deg);
+	}
+}
+
+body > i:nth-child(26) {
+	position: absolute;
+  left: 25%;
+  top: -100px;
+	animation: caida25 8.101s infinite linear;
+  color: red;
+  animation-delay: 0.36s;
+}
+@keyframes caida25 {
+	0% {
+		top: 0%;
+		transform: rotateZ(309deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-125deg);
+	}
+}
+
+body > i:nth-child(27) {
+	position: absolute;
+  left: 26%;
+  top: -100px;
+	animation: caida26 7.241s infinite linear;
+  color: red;
+  animation-delay: 0.518s;
+}
+@keyframes caida26 {
+	0% {
+		top: 0%;
+		transform: rotateZ(23deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(353deg);
+	}
+}
+
+body > i:nth-child(28) {
+	position: absolute;
+  left: 27%;
+  top: -100px;
+	animation: caida27 6.928s infinite linear;
+  color: red;
+  animation-delay: 1.802s;
+}
+@keyframes caida27 {
+	0% {
+		top: 0%;
+		transform: rotateZ(322deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(280deg);
+	}
+}
+
+body > i:nth-child(29) {
+	position: absolute;
+  left: 28%;
+  top: -100px;
+	animation: caida28 5.853s infinite linear;
+  color: red;
+  animation-delay: 1.869s;
+}
+@keyframes caida28 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-31deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(151deg);
+	}
+}
+
+body > i:nth-child(30) {
+	position: absolute;
+  left: 29%;
+  top: -100px;
+	animation: caida29 6.231s infinite linear;
+  color: red;
+  animation-delay: 0.781s;
+}
+@keyframes caida29 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-137deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-341deg);
+	}
+}
+
+body > i:nth-child(31) {
+	position: absolute;
+  left: 30%;
+  top: -100px;
+	animation: caida30 4.306s infinite linear;
+  color: red;
+  animation-delay: 0.591s;
+}
+@keyframes caida30 {
+	0% {
+		top: 0%;
+		transform: rotateZ(339deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-15deg);
+	}
+}
+
+body > i:nth-child(32) {
+	position: absolute;
+  left: 31%;
+  top: -100px;
+	animation: caida31 8.231s infinite linear;
+  color: red;
+  animation-delay: 0.85s;
+}
+@keyframes caida31 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-93deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(201deg);
+	}
+}
+
+body > i:nth-child(33) {
+	position: absolute;
+  left: 32%;
+  top: -100px;
+	animation: caida32 4.389s infinite linear;
+  color: red;
+  animation-delay: 1.607s;
+}
+@keyframes caida32 {
+	0% {
+		top: 0%;
+		transform: rotateZ(126deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(177deg);
+	}
+}
+
+body > i:nth-child(34) {
+	position: absolute;
+  left: 33%;
+  top: -100px;
+	animation: caida33 7.901s infinite linear;
+  color: red;
+  animation-delay: 0.86s;
+}
+@keyframes caida33 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-358deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(51deg);
+	}
+}
+
+body > i:nth-child(35) {
+	position: absolute;
+  left: 34%;
+  top: -100px;
+	animation: caida34 4.627s infinite linear;
+  color: red;
+  animation-delay: 0.08s;
+}
+@keyframes caida34 {
+	0% {
+		top: 0%;
+		transform: rotateZ(324deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(179deg);
+	}
+}
+
+body > i:nth-child(36) {
+	position: absolute;
+  left: 35%;
+  top: -100px;
+	animation: caida35 4.876s infinite linear;
+  color: red;
+  animation-delay: 0.913s;
+}
+@keyframes caida35 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-189deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(17deg);
+	}
+}
+
+body > i:nth-child(37) {
+	position: absolute;
+  left: 36%;
+  top: -100px;
+	animation: caida36 8.244s infinite linear;
+  color: red;
+  animation-delay: 1.362s;
+}
+@keyframes caida36 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-334deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(241deg);
+	}
+}
+
+body > i:nth-child(38) {
+	position: absolute;
+  left: 37%;
+  top: -100px;
+	animation: caida37 5.595s infinite linear;
+  color: red;
+  animation-delay: 1.795s;
+}
+@keyframes caida37 {
+	0% {
+		top: 0%;
+		transform: rotateZ(243deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-299deg);
+	}
+}
+
+
+body > i:nth-child(39) {
+	position: absolute;
+  left: 38%;
+  top: -100px;
+	animation: caida38 5.159s infinite linear;
+  color: red;
+  animation-delay: 0.437s;
+}
+@keyframes caida38 {
+	0% {
+		top: 0%;
+		transform: rotateZ(145deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(29deg);
+	}
+}
+
+body > i:nth-child(40) {
+	position: absolute;
+  left: 39%;
+  top: -100px;
+	animation: caida39 4.047s infinite linear;
+  color: red;
+  animation-delay: 0.071s;
+}
+@keyframes caida39 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-187deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-244deg);
+	}
+}
+
+body > i:nth-child(41) {
+	position: absolute;
+  left: 40%;
+  top: -100px;
+	animation: caida40 4.605s infinite linear;
+  color: red;
+  animation-delay: 0.382s;
+}
+@keyframes caida40 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-90deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(35deg);
+	}
+}
+
+body > i:nth-child(42) {
+	position: absolute;
+  left: 41%;
+  top: -100px;
+	animation: caida41 4.052s infinite linear;
+  color: red;
+  animation-delay: 0.025s;
+}
+@keyframes caida41 {
+	0% {
+		top: 0%;
+		transform: rotateZ(3deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-14deg);
+	}
+}
+
+body > i:nth-child(43) {
+	position: absolute;
+  left: 42%;
+  top: -100px;
+	animation: caida42 7.56s infinite linear;
+  color: red;
+  animation-delay: 0.22s;
+}
+@keyframes caida42 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-44deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(145deg);
+	}
+}
+
+body > i:nth-child(44) {
+	position: absolute;
+  left: 43%;
+  top: -100px;
+	animation: caida43 7.956s infinite linear;
+  color: red;
+  animation-delay: 0.436s;
+}
+@keyframes caida43 {
+	0% {
+		top: 0%;
+		transform: rotateZ(215deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(104deg);
+	}
+}
+
+body > i:nth-child(45) {
+	position: absolute;
+  left: 44%;
+  top: -100px;
+	animation: caida44 7.601s infinite linear;
+  color: red;
+  animation-delay: 0.582s;
+}
+@keyframes caida44 {
+	0% {
+		top: 0%;
+		transform: rotateZ(350deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(167deg);
+	}
+}
+
+body > i:nth-child(46) {
+	position: absolute;
+  left: 45%;
+  top: -100px;
+	animation: caida45 6.013s infinite linear;
+  color: red;
+  animation-delay: 0.784s;
+}
+@keyframes caida45 {
+	0% {
+		top: 0%;
+		transform: rotateZ(305deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(60deg);
+	}
+}
+
+body > i:nth-child(47) {
+	position: absolute;
+  left: 46%;
+  top: -100px;
+	animation: caida46 6.266s infinite linear;
+  color: red;
+  animation-delay: 1.398s;
+}
+@keyframes caida46 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-300deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(22deg);
+	}
+}
+
+body > i:nth-child(48) {
+	position: absolute;
+  left: 47%;
+  top: -100px;
+	animation: caida47 7.019s infinite linear;
+  color: red;
+  animation-delay: 1.095s;
+}
+@keyframes caida47 {
+	0% {
+		top: 0%;
+		transform: rotateZ(244deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-17deg);
+	}
+}
+
+body > i:nth-child(49) {
+	position: absolute;
+  left: 48%;
+  top: -100px;
+	animation: caida48 8.208s infinite linear;
+  color: red;
+  animation-delay: 1.048s;
+}
+@keyframes caida48 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-295deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(333deg);
+	}
+}
+
+body > i:nth-child(50) {
+	position: absolute;
+  left: 49%;
+  top: -100px;
+	animation: caida49 5.965s infinite linear;
+  color: red;
+  animation-delay: 1.754s;
+}
+@keyframes caida49 {
+	0% {
+		top: 0%;
+		transform: rotateZ(95deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-247deg);
+	}
+}
+
+body > i:nth-child(51) {
+	position: absolute;
+  left: 50%;
+  top: -100px;
+	animation: caida50 6.042s infinite linear;
+  color: red;
+  animation-delay: 1.208s;
+}
+@keyframes caida50 {
+	0% {
+		top: 0%;
+		transform: rotateZ(261deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-58deg);
+	}
+}
+
+body > i:nth-child(52) {
+	position: absolute;
+  left: 51%;
+  top: -100px;
+	animation: caida51 4.921s infinite linear;
+  color: red;
+  animation-delay: 1.44s;
+}
+@keyframes caida51 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-195deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(217deg);
+	}
+}
+
+body > i:nth-child(53) {
+	position: absolute;
+  left: 52%;
+  top: -100px;
+	animation: caida52 7.548s infinite linear;
+  color: red;
+  animation-delay: 0.401s;
+}
+@keyframes caida52 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-245deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-128deg);
+	}
+}
+
+body > i:nth-child(54) {
+	position: absolute;
+  left: 53%;
+  top: -100px;
+	animation: caida53 5.56s infinite linear;
+  color: red;
+  animation-delay: 1.922s;
+}
+@keyframes caida53 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-330deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-220deg);
+	}
+}
+
+body > i:nth-child(55) {
+	position: absolute;
+  left: 54%;
+  top: -100px;
+	animation: caida54 4.561s infinite linear;
+  color: red;
+  animation-delay: 1.952s;
+}
+@keyframes caida54 {
+	0% {
+		top: 0%;
+		transform: rotateZ(25deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(107deg);
+	}
+}
+
+body > i:nth-child(56) {
+	position: absolute;
+  left: 55%;
+  top: -100px;
+	animation: caida55 4.951s infinite linear;
+  color: red;
+  animation-delay: 0.039s;
+}
+@keyframes caida55 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-57deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(76deg);
+	}
+}
+
+body > i:nth-child(57) {
+	position: absolute;
+  left: 56%;
+  top: -100px;
+	animation: caida56 5.192s infinite linear;
+  color: red;
+  animation-delay: 1.806s;
+}
+@keyframes caida56 {
+	0% {
+		top: 0%;
+		transform: rotateZ(295deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-54deg);
+	}
+}
+
+body > i:nth-child(58) {
+	position: absolute;
+  left: 57%;
+  top: -100px;
+	animation: caida57 8.345s infinite linear;
+  color: red;
+  animation-delay: 1.198s;
+}
+@keyframes caida57 {
+	0% {
+		top: 0%;
+		transform: rotateZ(271deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(318deg);
+	}
+}
+
+body > i:nth-child(59) {
+	position: absolute;
+  left: 58%;
+  top: -100px;
+	animation: caida58 4.058s infinite linear;
+  color: red;
+  animation-delay: 0.862s;
+}
+@keyframes caida58 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-185deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(332deg);
+	}
+}
+
+body > i:nth-child(60) {
+	position: absolute;
+  left: 59%;
+  top: -100px;
+	animation: caida59 4.855s infinite linear;
+  color: red;
+  animation-delay: 0.925s;
+}
+@keyframes caida59 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-354deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(310deg);
+	}
+}
+
+body > i:nth-child(61) {
+	position: absolute;
+  left: 60%;
+  top: -100px;
+	animation: caida60 5.856s infinite linear;
+  color: red;
+  animation-delay: 1.711s;
+}
+@keyframes caida60 {
+	0% {
+		top: 0%;
+		transform: rotateZ(330deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-12deg);
+	}
+}
+
+body > i:nth-child(62) {
+	position: absolute;
+  left: 61%;
+  top: -100px;
+	animation: caida61 5.861s infinite linear;
+  color: red;
+  animation-delay: 0.6s;
+}
+@keyframes caida61 {
+	0% {
+		top: 0%;
+		transform: rotateZ(32deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-305deg);
+	}
+}
+
+body > i:nth-child(63) {
+	position: absolute;
+  left: 62%;
+  top: -100px;
+	animation: caida62 8.68s infinite linear;
+  color: red;
+  animation-delay: 0.328s;
+}
+@keyframes caida62 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-52deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(109deg);
+	}
+}
+
+body > i:nth-child(64) {
+	position: absolute;
+  left: 63%;
+  top: -100px;
+	animation: caida63 4.502s infinite linear;
+  color: red;
+  animation-delay: 1.55s;
+}
+@keyframes caida63 {
+	0% {
+		top: 0%;
+		transform: rotateZ(347deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-194deg);
+	}
+}
+
+body > i:nth-child(65) {
+	position: absolute;
+  left: 64%;
+  top: -100px;
+	animation: caida64 6.012s infinite linear;
+  color: red;
+  animation-delay: 1.899s;
+}
+@keyframes caida64 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-180deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-217deg);
+	}
+}
+
+body > i:nth-child(66) {
+	position: absolute;
+  left: 65%;
+  top: -100px;
+	animation: caida65 6.974s infinite linear;
+  color: red;
+  animation-delay: 0.414s;
+}
+@keyframes caida65 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-204deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-113deg);
+	}
+}
+
+body > i:nth-child(67) {
+	position: absolute;
+  left: 66%;
+  top: -100px;
+	animation: caida66 4.678s infinite linear;
+  color: red;
+  animation-delay: 1.489s;
+}
+@keyframes caida66 {
+	0% {
+		top: 0%;
+		transform: rotateZ(233deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-12deg);
+	}
+}
+
+body > i:nth-child(68) {
+	position: absolute;
+  left: 67%;
+  top: -100px;
+	animation: caida67 6.759s infinite linear;
+  color: red;
+  animation-delay: 0.909s;
+}
+@keyframes caida67 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-227deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-154deg);
+	}
+}
+
+body > i:nth-child(69) {
+	position: absolute;
+  left: 68%;
+  top: -100px;
+	animation: caida68 7.922s infinite linear;
+  color: red;
+  animation-delay: 1.563s;
+}
+@keyframes caida68 {
+	0% {
+		top: 0%;
+		transform: rotateZ(252deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-314deg);
+	}
+}
+
+body > i:nth-child(70) {
+	position: absolute;
+  left: 69%;
+  top: -100px;
+	animation: caida69 6.436s infinite linear;
+  color: red;
+  animation-delay: 1.12s;
+}
+@keyframes caida69 {
+	0% {
+		top: 0%;
+		transform: rotateZ(256deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(28deg);
+	}
+}
+
+body > i:nth-child(71) {
+	position: absolute;
+  left: 70%;
+  top: -100px;
+	animation: caida70 5.247s infinite linear;
+  color: red;
+  animation-delay: 0.239s;
+}
+@keyframes caida70 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-304deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(197deg);
+	}
+}
+
+body > i:nth-child(72) {
+	position: absolute;
+  left: 71%;
+  top: -100px;
+	animation: caida71 5.792s infinite linear;
+  color: red;
+  animation-delay: 1.756s;
+}
+@keyframes caida71 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-97deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(314deg);
+	}
+}
+
+body > i:nth-child(73) {
+	position: absolute;
+  left: 72%;
+  top: -100px;
+	animation: caida72 6.476s infinite linear;
+  color: red;
+  animation-delay: 0.941s;
+}
+@keyframes caida72 {
+	0% {
+		top: 0%;
+		transform: rotateZ(122deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-129deg);
+	}
+}
+
+body > i:nth-child(74) {
+	position: absolute;
+  left: 73%;
+  top: -100px;
+	animation: caida73 6.256s infinite linear;
+  color: red;
+  animation-delay: 0.192s;
+}
+@keyframes caida73 {
+	0% {
+		top: 0%;
+		transform: rotateZ(7deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(149deg);
+	}
+}
+
+body > i:nth-child(75) {
+	position: absolute;
+  left: 74%;
+  top: -100px;
+	animation: caida74 6.386s infinite linear;
+  color: red;
+  animation-delay: 0.551s;
+}
+@keyframes caida74 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-28deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-215deg);
+	}
+}
+
+body > i:nth-child(76) {
+	position: absolute;
+  left: 75%;
+  top: -100px;
+	animation: caida75 5.231s infinite linear;
+  color: red;
+  animation-delay: 1.461s;
+}
+@keyframes caida75 {
+	0% {
+		top: 0%;
+		transform: rotateZ(83deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(159deg);
+	}
+}
+
+body > i:nth-child(77) {
+	position: absolute;
+  left: 76%;
+  top: -100px;
+	animation: caida76 6.049s infinite linear;
+  color: red;
+  animation-delay: 0.731s;
+}
+@keyframes caida76 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-16deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(311deg);
+	}
+}
+
+body > i:nth-child(78) {
+	position: absolute;
+  left: 77%;
+  top: -100px;
+	animation: caida77 4.814s infinite linear;
+  color: red;
+  animation-delay: 1.935s;
+}
+@keyframes caida77 {
+	0% {
+		top: 0%;
+		transform: rotateZ(116deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-349deg);
+	}
+}
+
+body > i:nth-child(79) {
+	position: absolute;
+  left: 78%;
+  top: -100px;
+	animation: caida78 8.822s infinite linear;
+  color: red;
+  animation-delay: 0.31s;
+}
+@keyframes caida78 {
+	0% {
+		top: 0%;
+		transform: rotateZ(330deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-22deg);
+	}
+}
+
+body > i:nth-child(80) {
+	position: absolute;
+  left: 79%;
+  top: -100px;
+	animation: caida79 4.732s infinite linear;
+  color: red;
+  animation-delay: 0.409s;
+}
+@keyframes caida79 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-2deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(65deg);
+	}
+}
+
+body > i:nth-child(81) {
+	position: absolute;
+  left: 80%;
+  top: -100px;
+	animation: caida80 7.294s infinite linear;
+  color: red;
+  animation-delay: 0.583s;
+}
+@keyframes caida80 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-61deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(267deg);
+	}
+}
+
+body > i:nth-child(82) {
+	position: absolute;
+  left: 81%;
+  top: -100px;
+	animation: caida81 6.277s infinite linear;
+  color: red;
+  animation-delay: 1.863s;
+}
+@keyframes caida81 {
+	0% {
+		top: 0%;
+		transform: rotateZ(327deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-80deg);
+	}
+}
+
+body > i:nth-child(83) {
+	position: absolute;
+  left: 82%;
+  top: -100px;
+	animation: caida82 4.857s infinite linear;
+  color: red;
+  animation-delay: 0.685s;
+}
+@keyframes caida82 {
+	0% {
+		top: 0%;
+		transform: rotateZ(162deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-101deg);
+	}
+}
+
+body > i:nth-child(84) {
+	position: absolute;
+  left: 83%;
+  top: -100px;
+	animation: caida83 8.434s infinite linear;
+  color: red;
+  animation-delay: 0.177s;
+}
+@keyframes caida83 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-24deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(218deg);
+	}
+}
+
+body > i:nth-child(85) {
+	position: absolute;
+  left: 84%;
+  top: -100px;
+	animation: caida84 4.264s infinite linear;
+  color: red;
+  animation-delay: 1.583s;
+}
+@keyframes caida84 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-175deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-244deg);
+	}
+}
+
+body > i:nth-child(86) {
+	position: absolute;
+  left: 85%;
+  top: -100px;
+	animation: caida85 5.382s infinite linear;
+  color: red;
+  animation-delay: 0.579s;
+}
+@keyframes caida85 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-256deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-331deg);
+	}
+}
+
+body > i:nth-child(87) {
+	position: absolute;
+  left: 86%;
+  top: -100px;
+	animation: caida86 8.765s infinite linear;
+  color: red;
+  animation-delay: 1.068s;
+}
+@keyframes caida86 {
+	0% {
+		top: 0%;
+		transform: rotateZ(53deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-50deg);
+	}
+}
+
+body > i:nth-child(88) {
+	position: absolute;
+  left: 87%;
+  top: -100px;
+	animation: caida87 7.556s infinite linear;
+  color: red;
+  animation-delay: 0.361s;
+}
+@keyframes caida87 {
+	0% {
+		top: 0%;
+		transform: rotateZ(103deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-10deg);
+	}
+}
+
+body > i:nth-child(89) {
+	position: absolute;
+  left: 88%;
+  top: -100px;
+	animation: caida88 5.304s infinite linear;
+  color: red;
+  animation-delay: 0.902s;
+}
+@keyframes caida88 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-111deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-203deg);
+	}
+}
+
+body > i:nth-child(90) {
+	position: absolute;
+  left: 89%;
+  top: -100px;
+	animation: caida89 6.813s infinite linear;
+  color: red;
+  animation-delay: 0.944s;
+}
+@keyframes caida89 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-175deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(103deg);
+	}
+}
+
+body > i:nth-child(91) {
+	position: absolute;
+  left: 90%;
+  top: -100px;
+	animation: caida90 7.527s infinite linear;
+  color: red;
+  animation-delay: 0.799s;
+}
+@keyframes caida90 {
+	0% {
+		top: 0%;
+		transform: rotateZ(143deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-54deg);
+	}
+}
+
+body > i:nth-child(92) {
+	position: absolute;
+  left: 91%;
+  top: -100px;
+	animation: caida91 6.895s infinite linear;
+  color: red;
+  animation-delay: 0.8s;
+}
+@keyframes caida91 {
+	0% {
+		top: 0%;
+		transform: rotateZ(303deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(153deg);
+	}
+}
+
+body > i:nth-child(93) {
+	position: absolute;
+  left: 92%;
+  top: -100px;
+	animation: caida92 5.01s infinite linear;
+  color: red;
+  animation-delay: 1.186s;
+}
+@keyframes caida92 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-150deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(312deg);
+	}
+}
+
+body > i:nth-child(94) {
+	position: absolute;
+  left: 93%;
+  top: -100px;
+	animation: caida93 5.712s infinite linear;
+  color: red;
+  animation-delay: 0.356s;
+}
+@keyframes caida93 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-25deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(291deg);
+	}
+}
+
+body > i:nth-child(95) {
+	position: absolute;
+  left: 94%;
+  top: -100px;
+	animation: caida94 4.794s infinite linear;
+  color: red;
+  animation-delay: 0.145s;
+}
+@keyframes caida94 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-356deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-105deg);
+	}
+}
+
+body > i:nth-child(96) {
+	position: absolute;
+  left: 95%;
+  top: -100px;
+	animation: caida95 7.342s infinite linear;
+  color: red;
+  animation-delay: 1.428s;
+}
+@keyframes caida95 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-96deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(292deg);
+	}
+}
+
+body > i:nth-child(97) {
+	position: absolute;
+  left: 96%;
+  top: -100px;
+	animation: caida96 7.6s infinite linear;
+  color: red;
+  animation-delay: 0s;
+}
+@keyframes caida96 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-302deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(151deg);
+	}
+}
+
+body > i:nth-child(98) {
+	position: absolute;
+  left: 97%;
+  top: -100px;
+	animation: caida97 6.96s infinite linear;
+  color: red;
+  animation-delay: 1.856s;
+}
+@keyframes caida97 {
+	0% {
+		top: 0%;
+		transform: rotateZ(303deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(94deg);
+	}
+}
+
+body > i:nth-child(99) {
+	position: absolute;
+  left: 98%;
+  top: -100px;
+	animation: caida98 4.752s infinite linear;
+  color: red;
+  animation-delay: 1.323s;
+}
+@keyframes caida98 {
+	0% {
+		top: 0%;
+		transform: rotateZ(156deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-70deg);
+	}
+}
+
+body > i:nth-child(100) {
+	position: absolute;
+  left: 99%;
+  top: -100px;
+	animation: caida99 4.584s infinite linear;
+  color: red;
+  animation-delay: 1.839s;
+}
+@keyframes caida99 {
+	0% {
+		top: 0%;
+		transform: rotateZ(115deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(-310deg);
+	}
+}
+
+body > i:nth-child(101) {
+	position: absolute;
+  left: 100%;
+  top: -100px;
+	animation: caida100 7.138s infinite linear;
+  color: red;
+  animation-delay: 1.364s;
+}
+@keyframes caida100 {
+	0% {
+		top: 0%;
+		transform: rotateZ(-273deg);
+	}
+	100% {
+		top: 100%;
+		transform: rotateZ(123deg);
+	}
+}
