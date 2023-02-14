@@ -3,7 +3,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 98vh;
-  background-color: #29306c;
+  background-image: linear-gradient(45deg, #2F234B, #F74A8A, #FFF7FA, #E0CBDC);
   overflow: hidden;
 }
 body > div > img{
